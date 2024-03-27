@@ -42,7 +42,7 @@ nav ul li {
     width: 100%;
 }
 
-@media screen and (max-width: 724px) {
+@media screen and (max-width: 848px) {
     nav {
         margin: 8px 16px;
     }
