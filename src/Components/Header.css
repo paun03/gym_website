@@ -1,0 +1,59 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 128px;
+    color: white;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+nav div span {
+    color: #FAFF00;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 36px;
+    font-size: 20px;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+.hamburgerMenuIcon {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.openNav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media screen and (max-width: 724px) {
+    nav {
+        margin: 8px 16px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .hamburgerMenuIcon {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+}
