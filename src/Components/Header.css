@@ -1,8 +1,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 128px;
-    color: white;
+    color: white;   
 }
 
 nav div {
@@ -40,6 +39,12 @@ nav ul li {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+@media screen and (max-width: 1600px) {
+    nav {
+        margin: 0px 16px;
+    } 
 }
 
 @media screen and (max-width: 848px) {

@@ -1,0 +1,55 @@
+main {
+    background-image: url('../../public/hero/background.png');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: top right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 24px;
+}
+
+main div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+}
+
+main div h1 {   
+    text-align: left;
+    font-size: 64px;
+}
+
+main div button {
+    background-color: #FAFF00;
+    border: none;
+    border-radius: 24px;
+    font-size: 20px;
+    padding: 4px 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1600px) {
+    main {
+        background-position: 50% 50%;
+    }
+}
+
+@media screen and (max-width: 848px) {
+
+    main {
+        background-position: 60% 50%;
+    }
+
+    main div {
+        font-size: 20px;
+    }
+
+    main {
+        margin: 0px 0px;
+    }
+}
