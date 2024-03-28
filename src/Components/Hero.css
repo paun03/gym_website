@@ -8,6 +8,7 @@ main {
     align-items: flex-start;
     justify-content: center;
     margin: 0 24px;
+    width: 100%;
 }
 
 main div {
@@ -28,12 +29,12 @@ main div button {
     border: none;
     border-radius: 24px;
     font-size: 20px;
-    padding: 4px 24px;
+    padding: 12px 36px;
     font-weight: bold;
     cursor: pointer;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1800px) {
     main {
         background-position: 50% 50%;
     }
@@ -42,14 +43,10 @@ main div button {
 @media screen and (max-width: 848px) {
 
     main {
-        background-position: 60% 50%;
+        background-position: 50% 50%;
     }
 
     main div {
         font-size: 20px;
-    }
-
-    main {
-        margin: 0px 0px;
     }
 }

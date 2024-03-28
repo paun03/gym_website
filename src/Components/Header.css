@@ -1,7 +1,15 @@
 nav {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
     display: flex;
     justify-content: space-between;
-    color: white;   
+    align-items: center;
+    color: white;
+    z-index: 100;
+    position: relative;
+    padding: 4px; 
 }
 
 nav div {
@@ -41,24 +49,23 @@ nav ul li {
     width: 100%;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1800px) {
     nav {
         margin: 0px 16px;
     } 
 }
 
-@media screen and (max-width: 848px) {
-    nav {
-        margin: 8px 16px;
-    }
-
+@media screen and (max-width: 1466px) {
     nav ul {
         display: none;
     }
 
     .hamburgerMenuIcon {
         display: flex;
-        justify-content: start;
-        align-items: start;
+        justify-content: flex-end; 
+        align-items: center;
+        position: absolute;
+        top: 6px;
+        right: 24px;
     }
 }
